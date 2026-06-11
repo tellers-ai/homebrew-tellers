@@ -1,26 +1,26 @@
 class Tellers < Formula
   desc "Tellers CLI - interact with tellers.ai from the terminal"
   homepage "https://tellers.ai"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.3/tellers-v0.0.3-aarch64-apple-darwin.tar.gz"
-      sha256 "3dcad1cd13597c4d450b1a670aca02815f225667d348f327a27876b9b5bc6804"
+      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.4/tellers-v0.0.4-aarch64-apple-darwin.tar.gz"
+      sha256 "416fab8a51c116dc79d630a921496f51a1fa242bcb1189073c42b0721e7b9e0f"
     else
-      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.3/tellers-v0.0.3-x86_64-apple-darwin.tar.gz"
-      sha256 "1f39b2e3ba922daf87e04ec4e8ecd4a5aea982ca1a4159ec11d2bf124d42b01f"
+      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.4/tellers-v0.0.4-x86_64-apple-darwin.tar.gz"
+      sha256 "6b64ff1666e0829cf0416953da11b0fa91d96b5aff32a14f27b9d4d0b1a49aee"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.3/tellers-v0.0.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a42d1b441a24a9251b8d740ebd1275462fc602ad7c6b5a8a05a87ba1bc8914a4"
+      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.4/tellers-v0.0.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b9f6f61eab856c82ba25225e206acc18f6f93b1494ab0355289596b709f49b5b"
     else
-      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.3/tellers-v0.0.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7f2587318d4378695a09e1642a04e68736a08a920dec7239cd326e8cbf79e0aa"
+      url "https://github.com/tellers-ai/tellers-cli/releases/download/v0.0.4/tellers-v0.0.4-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c190f6c88d063849714572ff1f6b0586b7e04acc314fc8a3280b8e3d5417f1a3"
     end
   end
 
